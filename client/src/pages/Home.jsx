@@ -1,4 +1,5 @@
 import Navbar from "../components/navbar/Navbar";
+import Features from "../components/landing/Features";
 
 function Home() {
   return (
@@ -22,6 +23,8 @@ function Home() {
         </button>
 
       </section>
+
+        <Features />
     </>
   );
 }
