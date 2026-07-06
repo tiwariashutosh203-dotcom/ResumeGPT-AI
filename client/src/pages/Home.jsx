@@ -1,5 +1,10 @@
 import Navbar from "../components/navbar/Navbar";
 import Features from "../components/landing/Features";
+import Templates from "../components/landing/Templates";
+import Testimonials from "../components/landing/Testimonials";
+import Footer from "../components/footer/Footer";
+
+
 
 function Home() {
   return (
@@ -24,7 +29,16 @@ function Home() {
 
       </section>
 
+        
         <Features />
+        <Templates />
+         <Testimonials />
+         <Footer />
+
+
+
+
+
     </>
   );
 }
